@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    margin: 2em;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+form {
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 1.5em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+    color: #BF1722;
+    background-color: #fff2a8;
+    outline: solid #03C medium;
+}
+
+input[required], textarea[required] {
+    background-color: #fff9c4; /* light yellow */
+}
+
+input[required]:focus, textarea[required]:focus {
+    background-color: #fff2a8 !important; /* brighter yellow on focus */
+}

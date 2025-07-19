@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AHG Speaker Proposal Form</title>
+    <link rel="stylesheet" href="css/ahgformstyle2020after.css" type="text/css" media="screen">
+</head>
+<body>
+    <main role="main">
+        <h1>AHG Speaker Proposal Submission</h1>
+        <p>Please fill out the following form to submit your proposal for the AHG conference. Required fields are marked with an asterisk (*).</p>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Speaker Information</legend>
+                <ul>
+                    <li>
+                        <label for="fstspkr1">First Name: *</label>
+                        <input id="fstspkr1" name="fstspkr1" type="text" required aria-required="true" />
+                    </li>
+                    <li>
+                        <label for="lstname1">Last Name: *</label>
+                        <input id="lstname1" name="lstname1" type="text" required aria-required="true" />
+                    </li>
+                    <li>
+                        <label for="degree1">Highest Degree: *</label>
+                        <input id="degree1" name="degree1" type="text" required aria-required="true" />
+                    </li>
+                    <li>
+                        <label for="email1">Email: *</label>
+                        <input id="email1" name="email1" type="email" required aria-required="true" />
+                    </li>
+                    <li>
+                        <label for="telno1">Phone Number:</label>
+                        <input id="telno1" name="telno1" type="tel" />
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Proposal Details</legend>
+                <ul>
+                    <li>
+                        <label for="title1">Proposal Title:</label>
+                        <input id="title1" name="title1" type="text" minlength="5" maxlength="100"/>
+                    </li>
+                    <li>
+                        <label for="bio1">Presenter Bio:</label>
+                        <textarea id="bio1" name="bio1" minlength="50" maxlength="500"></textarea>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <button type="submit">Submit Your Proposal</button>
+        </form>
+    </main>
+</body>
+</html>
